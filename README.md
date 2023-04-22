@@ -1,4 +1,4 @@
-# [Project 1 - Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
+# [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
 **Tools Used**
 1. Python (pandas, numpy, scipy.stats)
