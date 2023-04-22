@@ -7,6 +7,7 @@
 **Tools Used**
 1. Python (pandas, numpy, scipy.stats)
 2. Power BI
+3. Power Query
 
 **Cleaning/Manipulation Code:**
 
