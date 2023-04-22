@@ -1,5 +1,3 @@
-# Evan's Portfolio
-
 # Project 1 - Creating 2023 NFL Draft Rookie Grades Based on Measurables
 
 **Tools Used**
