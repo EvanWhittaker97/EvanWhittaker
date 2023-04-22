@@ -6,7 +6,7 @@
 
 **Cleaning/Manipulation Code:**
 
-[Repository:](https://github.com/EvanWhittaker97/2023_NFL_Draft/blob/main/Data_Manipulation_Cleaning)
+[Repository](https://github.com/EvanWhittaker97/2023_NFL_Draft/blob/main/Data_Manipulation_Cleaning)
 
 The goal of this project was to analyze the athleticism of NFL rookies in this upcoming 2023 draft. 
 
