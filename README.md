@@ -8,6 +8,8 @@
 
 [Repository](https://github.com/EvanWhittaker97/2023_NFL_Draft/blob/main/Data_Manipulation_Cleaning)
 
+**Project Scope**
+
 The goal of this project was to analyze the athleticism of NFL rookies in this upcoming 2023 draft. 
 
 To accomplish this, I started by gathering data for different positions such as DL, EDGE, LB, OL, QB, RB, S, TE, and WR, and stored them in CSV files. Then, I used the Pandas library in Python to read the data from each CSV file into a DataFrame.
