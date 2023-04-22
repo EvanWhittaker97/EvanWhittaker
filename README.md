@@ -21,3 +21,7 @@ Next, I calculated the percentiles for each player's performance in the athletic
 I then combined each position's CSV into one and loaded it into Power BI.
 
 The Power BI dashboard was designed to be both appealing and interative. The goal was to create a dashboard that someone with no football knowledge could look at and understand exactly how athletic the prospect was. The user has the ability to filter players by position then select the specific player they want to see metrics and the final grade for. 
+
+**Dashboard**
+
+[![image](https://user-images.githubusercontent.com/64989275/233793513-6d1ab00a-ad91-4e58-b257-32de1a520f4f.png)]
