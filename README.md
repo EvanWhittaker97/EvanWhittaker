@@ -24,4 +24,5 @@ The Power BI dashboard was designed to be both appealing and interative. The goa
 
 **Dashboard**
 
-![](![image](https://user-images.githubusercontent.com/64989275/233793630-6ed77b3b-2f26-400d-b570-a6811a6aaa08.png))
+![](https://user-images.githubusercontent.com/64989275/233793794-15d65ab8-326e-47ca-8eb4-2408a5d59638.png)
+
