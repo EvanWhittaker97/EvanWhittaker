@@ -1,5 +1,33 @@
 # Evan Whittaker's Portfolio
 
+# [Uber Data Engineering](https://github.com/EvanWhittaker97/Uber_Data_Engineering)
+
+**Tools Used**
+1. Python (pandas, numpy)
+2. Mage
+3. SQL
+4. Google Cloud
+5. Lucid
+
+**Project Scope**
+
+The goal of this project was to analyze the athleticism of NFL rookies in this upcoming 2023 draft. 
+
+To accomplish this, I started by gathering data for different positions such as DL, EDGE, LB, OL, QB, RB, S, TE, and WR, and stored them in CSV files. Then, I used the Pandas library in Python to read the data from each CSV file into a DataFrame.
+
+There wasn't a lot to clean in this data. However, I removed the players who didn't test in 3 or more of the athletic testing fields so an accurate grade could be determined. Furthermore, I wanted the height field to be something easier to quantify, so I converted the height from inches to feet. 
+
+Next, I calculated the percentiles for each player's performance in the athletic tests, such as the 40-yard dash, vertical jump, and cone drill. The challenge was creating percentile grades by position. It was imperitive that I only compare apples to apples. For example, it wouldn't be fair to compare speed of a WR to the speed to an OL. 
+
+I then combined each position's CSV into one and loaded it into Power BI.
+
+The Power BI dashboard was designed to be both appealing and interative. The goal was to create a dashboard that someone with no football knowledge could look at and understand exactly how athletic the prospect was. The user has the ability to filter players by position then select the specific player they want to see metrics and the final grade for. 
+
+**Dashboard**
+
+![](https://user-images.githubusercontent.com/64989275/233794078-4a66b2c6-cf6a-4cea-a5fa-27cae186a02f.png)
+
+############################################################################################################################################################################################################################
 
 # [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
