@@ -9,6 +9,8 @@
 4. Google Cloud
 5. Lucid
 
+**Codebook:** https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
 **Project Scope**
 
 The goal of this project was to analyze the athleticism of NFL rookies in this upcoming 2023 draft. 
