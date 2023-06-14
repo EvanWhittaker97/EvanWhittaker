@@ -27,7 +27,6 @@ The Power BI dashboard was designed to be both appealing and interative. The goa
 
 ![](https://user-images.githubusercontent.com/64989275/233794078-4a66b2c6-cf6a-4cea-a5fa-27cae186a02f.png)
 
-############################################################################################################################################################################################################################
 
 # [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
