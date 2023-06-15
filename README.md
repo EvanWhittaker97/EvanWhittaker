@@ -7,7 +7,7 @@
 2. Mage
 3. SQL
 4. Google Cloud
-5. Lucid
+5. BigQuery
 
 **Codebook:** https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
 
