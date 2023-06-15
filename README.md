@@ -3,7 +3,7 @@
 # [Uber Data Engineering](https://github.com/EvanWhittaker97/Uber_Data_Engineering)
 
 **Tools Used**
-1. Python (pandas, numpy)
+1. Python
 2. Mage
 3. SQL
 4. Google Cloud
@@ -33,7 +33,7 @@ The Power BI dashboard was designed to be both appealing and interative. The goa
 # [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
 **Tools Used**
-1. Python (pandas, numpy, scipy.stats)
+1. Pytho
 2. Power BI
 3. Power Query
 
