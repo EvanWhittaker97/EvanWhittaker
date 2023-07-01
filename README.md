@@ -3,7 +3,7 @@
 # [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
 **Tools Used**
-1. Pytho
+1. Python
 2. Power BI
 3. Power Query
 
