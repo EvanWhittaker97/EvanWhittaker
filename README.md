@@ -24,11 +24,11 @@ specifically on conducting exploratory data analysis, customer segmentation and 
 
 First, I determined the optimal number of clusters using the elbow method. As you can see below, the elbow indicated that 4 clusters appeard to be the most optimal number:
 
-![](https://user-images.githubusercontent.com/64989275/233794078-4a66b2c6-cf6a-4cea-a5fa-27cae186a02f.png)
+![]((https://github.com/EvanWhittaker97/credit_card/blob/main/elbow.png)
 
 Then, after writing the k-means algorithm code, it unveiled the following clusters:
 
-![](https://user-images.githubusercontent.com/64989275/233794078-4a66b2c6-cf6a-4cea-a5fa-27cae186a02f.png)
+![](https://github.com/EvanWhittaker97/credit_card/blob/main/cluster.png)
 
 Once the clusters were determined, I added them back to the original dataset so I could conduct some basic exploratory analysis using Excel to demonstrate the power of clustering:
 
