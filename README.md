@@ -20,11 +20,11 @@ The scope of this project was to perform a k-means clustering algorithm on the c
 
 First, I determined the optimal number of clusters using the elbow method. As you can see below, the elbow indicated that 4 clusters appeard to be the most optimal number:
 
-![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/elbow.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/elbow_plot.png)
 
 Then, after writing the k-means algorithm code, it unveiled the following clusters:
 
-![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/cluster.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/clusters.png)
 
 Once the clusters were determined, I added them back to the original dataset so I could conduct some basic exploratory analysis using Excel to demonstrate the power of clustering:
 
