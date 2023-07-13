@@ -6,7 +6,7 @@
 
 **Clustering Algorithm Code:**
 
-[Repository](https://github.com/EvanWhittaker97/credit_card/blob/main/credit_complete.csv)
+[Repository](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r)
 
 **Data Source:**
 
