@@ -34,11 +34,9 @@ Once the clusters were determined, I added them back to the original dataset so 
 
 As you can see, it appears that the 3rd cluster has some concerning findings. The cardholders in the 3rd cluster have the highest frequency of cash advances by a significant margin. If there's one important thing to know, cash advances are detrimental to your credit!
 
-Given this finding, I decided to look into the average balance outstanding for each cluster. Unsurprisingly, the 3rd cluster has the largest outstanding balance on their cards by nearly $1000.00. Finally, I wanted to determine the loyalty of these cardholders. Often times,
+Given this finding, I decided to look into the average balance outstanding for each cluster. Unsurprisingly, the 3rd cluster has the largest outstanding balance on their cards by nearly $1000.00. Finally, I wanted to determine the loyalty of these cardholders. 
 
-cardholders with these financial habits won't spend a ton of time with a single provider. I decided to visualize the average tenure by cluster. Although the 3rd cluster did have the shortest tenure with the card provider, it appears that the tenure wasn't short enough
-
-for the findings to be conclusive. Nontheless, further exploratory data analysis on the 3rd cluster would certainly shed light on their lacklustre creditworthiness. 
+Often times, cardholders with these financial habits won't spend a ton of time with a single provider. I decided to visualize the average tenure by cluster. Although the 3rd cluster did have the shortest tenure with the card provider, it appears that the tenure wasn't short enough for the findings to be conclusive. Nontheless, further exploratory data analysis on the 3rd cluster would certainly shed light on their lacklustre creditworthiness. 
 
 # [Creating 2023 NFL Draft Rookie Grades Based on Measurables ](https://github.com/EvanWhittaker97/2023_NFL_Draft)
 
