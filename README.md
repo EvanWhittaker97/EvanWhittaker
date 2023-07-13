@@ -26,13 +26,13 @@ First, I determined the optimal number of clusters using the elbow method. As yo
 
 Then, after writing the k-means algorithm code, it unveiled the following clusters:
 
-![](https://github.com/EvanWhittaker97/credit_card/blob/main/cluster.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/cluster.png)
 
 Once the clusters were determined, I added them back to the original dataset so I could conduct some basic exploratory analysis using Excel to demonstrate the power of clustering:
 
-![](https://github.com/EvanWhittaker97/credit_card/blob/main/Average_Cash_Advance_Frequency.png)
-![](https://github.com/EvanWhittaker97/credit_card/blob/main/average_balance.png)
-![](https://github.com/EvanWhittaker97/credit_card/blob/main/average_tenure.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/Average_Cash_Advance_Frequency.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/average_balance.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/credit_card/main/average_tenure.png)
 
 As you can see, it appears that the 3rd cluster has some concerning findings. The cardholders in the 3rd cluster have the highest frequency of cash advances by a significant margin. If there's one important thing to know, cash advances are detrimental to your credit!
 
@@ -69,4 +69,4 @@ The Power BI dashboard was designed to be both appealing and interative. The goa
 
 **Dashboard**
 
-![](https://user-images.githubusercontent.com/64989275/233794078-4a66b2c6-cf6a-4cea-a5fa-27cae186a02f.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/2023_NFL_Draft/main/player_profile.png)
