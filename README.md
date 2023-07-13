@@ -14,7 +14,7 @@ https://www.kaggle.com/datasets/arjunbhasin2013/ccdata
 
 **Project Scope**
 
-The scope of this project was to perform a k-means clustering algorithm on the credit card data set to reveal trends in the data. The focus was specifically on conducting exploratory data analysis, customer segmentation and potentially reveal cardholder behavior. 
+The scope of this project was to perform a k-means clustering algorithm on the credit card data set to reveal trends in the data. The focus was specifically on conducting exploratory data analysis, customer segmentation and potentially reveal cardholder behavior. I removed the upper/lower 1% of the data to ensure outliers were managed. 
 
 **K-Means Output**
 
