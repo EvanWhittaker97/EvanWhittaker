@@ -1,6 +1,6 @@
 # Evan Whittaker's Portfolio
 
-# [Credit Card Clustering Analysis]([https://github.com/EvanWhittaker97/2023_NFL_Draft](https://github.com/EvanWhittaker97/banking_data)
+# [Credit Card Clustering Analysis](https://github.com/EvanWhittaker97/credit_card)
 
 **Tools Used**
 1. R
