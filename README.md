@@ -8,7 +8,7 @@
 
 **Clustering Algorithm Code:**
 
-[Repository]([[https://github.com/EvanWhittaker97/2023_NFL_Draft/blob/main/Data_Manipulation_Cleaning](https://github.com/EvanWhittaker97/banking_data/blob/main/github_code.r](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r)
+[Repository](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r)
 
 **Data Source:**
 
