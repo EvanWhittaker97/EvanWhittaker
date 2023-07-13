@@ -1,5 +1,3 @@
-# Evan Whittaker's Portfolio
-
 # [Credit Card Clustering Analysis](https://github.com/EvanWhittaker97/credit_card)
 
 **Tools Used**
