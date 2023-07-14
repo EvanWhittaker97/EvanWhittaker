@@ -7,7 +7,7 @@
 
 **Power BI File Download:**
 
-![Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard/tree/main)
+![Link](https://github.com/EvanWhittaker97/SuperStore_Dashboard/tree/main)
 
 **Project Scope:**
 
