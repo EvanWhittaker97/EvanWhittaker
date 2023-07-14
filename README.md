@@ -1,3 +1,26 @@
+# [US Super Store Sales Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
+
+**Tools Used**:
+1. Power BI
+2. DAX Query
+3. Power Query
+
+**Power BI File:**
+
+![](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pbix)
+
+**Project Scope:**
+
+The scope of the US Super Store Dashboard project was to showcase the power of Power BI. Using this intuitive tool, I created a dashboard to monitor sales metrics. 
+
+The first sheet in the dashbaord highlights current metrics. For example, some relevant metrics visualized are: Monthly Profit YoY, Monthly Sales and Payment Methods Used. Furthermore, it showcases an interative map with interative bubble sizes to demonstrate sales by the specified state. 
+
+The second sheet focuses on using the powerful built-in forecasting functions of Power BI. In both of the line charts on this sheet, there is a forecast for the upcoming 30 days of sales. Furthermore, there are sliders on each line chart to allow the end-user the ability to focus on specific date ranges if further analyses is neccessary. 
+
+Dashboards:
+
+![](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pdf)
+
 # [Credit Card Clustering Analysis](https://github.com/EvanWhittaker97/credit_card)
 
 **Tools Used**
@@ -12,11 +35,11 @@
 
 https://www.kaggle.com/datasets/arjunbhasin2013/ccdata
 
-**Project Scope**
+**Project Scope:**
 
 The scope of this project was to perform a k-means clustering algorithm on the credit card data set to reveal trends in the data. The focus was specifically on conducting exploratory data analysis, customer segmentation and potentially reveal cardholder behavior. I removed the upper/lower 1% of the data to ensure outliers were managed. 
 
-**K-Means Output**
+**K-Means Output:**
 
 First, I determined the optimal number of clusters using the elbow method. As you can see below, the elbow indicated that 4 clusters appeard to be the most optimal number:
 
