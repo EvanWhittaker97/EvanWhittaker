@@ -5,9 +5,9 @@
 2. DAX Query
 3. Power Query
 
-**Power BI File:**
+**Power BI File Download:**
 
-![Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pbix)
+![Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard/tree/main)
 
 **Project Scope:**
 
