@@ -7,7 +7,7 @@
 
 **Power BI File:**
 
-![](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pbix)
+![Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pbix)
 
 **Project Scope:**
 
