@@ -11,11 +11,11 @@
 
 **Project Scope:**
 
-The scope of the US Super Store Dashboard project was to showcase the power of Power BI. Using this intuitive tool, I created a dashboard to monitor sales metrics. 
+The scope of the US Super Store Dashboard project was to highlight the capabilities of Power BI. By harnessing this powerful, user-friendly tool, a dashboard was developed to effectively monitor sales metrics.
 
-The first sheet in the dashbaord highlights current metrics. For example, some relevant metrics visualized are: Monthly Profit YoY, Monthly Sales and Payment Methods Used. Furthermore, it showcases an interative map with scaled bubble sizes to demonstrate sales by the specified state. When hovering over the specific bubble, it will show the state name, total sales and total profit. 
+The first sheet of the dashboard emphasizes current metrics. It visualizes crucial figures such as Year-over-Year (YoY) Monthly Profit, Monthly Sales, and the distribution of Payment Methods. Moreover, it includes an interactive map with proportionally sized bubbles, displaying sales by each state. Hovering over any particular bubble reveals the name of the state, alongside the total sales and profit figures.
 
-The second sheet focuses on using the powerful built-in forecasting functions of Power BI. In both of the line charts on this sheet, there is a forecast for the upcoming 30 days of sales. Furthermore, there are sliders on each line chart to allow the end-user the ability to focus on specific date ranges if further analyses is neccessary. 
+The second sheet leverages the robust forecasting capabilities inherent to Power BI. This sheet features two line charts, each projecting a forecast for the next 30 days of sales. To enable precise analysis, sliders have been incorporated with each line chart. This feature allows end-users to narrow their focus to specific date ranges, as and when further analysis is required.
 
 Dashboards:
 
