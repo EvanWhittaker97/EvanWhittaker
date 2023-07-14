@@ -13,13 +13,14 @@
 
 The scope of the US Super Store Dashboard project was to showcase the power of Power BI. Using this intuitive tool, I created a dashboard to monitor sales metrics. 
 
-The first sheet in the dashbaord highlights current metrics. For example, some relevant metrics visualized are: Monthly Profit YoY, Monthly Sales and Payment Methods Used. Furthermore, it showcases an interative map with interative bubble sizes to demonstrate sales by the specified state. 
+The first sheet in the dashbaord highlights current metrics. For example, some relevant metrics visualized are: Monthly Profit YoY, Monthly Sales and Payment Methods Used. Furthermore, it showcases an interative map with scaled bubble sizes to demonstrate sales by the specified state. When hovering over the specific bubble, it will show the state name, total sales and total profit. 
 
 The second sheet focuses on using the powerful built-in forecasting functions of Power BI. In both of the line charts on this sheet, there is a forecast for the upcoming 30 days of sales. Furthermore, there are sliders on each line chart to allow the end-user the ability to focus on specific date ranges if further analyses is neccessary. 
 
 Dashboards:
 
-![](https://github.com/EvanWhittaker97/SuperStore_Dashboard/blob/main/dashboard.pdf)
+![](https://raw.githubusercontent.com/EvanWhittaker97/SuperStore_Dashboard/main/Dashboard_1.png)
+![](https://raw.githubusercontent.com/EvanWhittaker97/SuperStore_Dashboard/main/Dashboard_2.png)
 
 # [Credit Card Clustering Analysis](https://github.com/EvanWhittaker97/credit_card)
 
