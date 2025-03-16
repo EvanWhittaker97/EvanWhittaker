@@ -23,7 +23,7 @@ The challenge with this approach is that we incurred significant data storage co
    
    ![](https://raw.githubusercontent.com/EvanWhittaker97/AWS_Lifecycle_Manager/refs/heads/main/log.png)
    
-4. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/TagAllVMs.txt) (Python) that applies the tags to existing instances based on the associated volumes' creation date
+4. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/TagAllVMs.txt) (Python) that applies the new tags to existing instances based on the associated volumes' creation date (ie. if older than specific date, DaysRemaining = 5, ConversionComplete = y)
    
 5. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/decrementDaysRemaining.txt) (Python) that decrement our DaysRemaining tag by 1 every 24 hours, but only where ConversionComplete = y
    
