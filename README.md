@@ -9,7 +9,7 @@
 
 The scope of the AWS Lifecycle Manager project was to save my employer money on EC2 instances. In our use case, the VM's were being used to migrate data from legacy software to our software. Each VM was being used for one client only.
 
-The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were precviously using Terraform - but if Terraform and EC2 (front end) didn't agree, all changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
+The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were previously using Terraform - but if Terraform and EC2 (front end) didn't agree, all of the changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
 
 **Process:**
 
