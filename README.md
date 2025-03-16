@@ -17,11 +17,11 @@ The challenge with this approach is that we incurred significant data storage co
    
 2. Implement the Lifecycle Manager Snapshot policy
    
-   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/lifecycle.png)
+   ![](https://raw.githubusercontent.com/EvanWhittaker97/AWS_Lifecycle_Manager/refs/heads/main/lifecycle.png)
    
 3. Create an [IAM Role](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/IAM.txt) (JSON) that allows Lifecycle Manager and LAMBDA to create, delete and modify instances as well as log whenever they run
    
-   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/log.png)
+   ![](https://raw.githubusercontent.com/EvanWhittaker97/AWS_Lifecycle_Manager/refs/heads/main/log.png)
    
 4. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/TagAllVMs.txt) (Python) that applies the tags to existing instances based on the associated volumes' creation date
    
@@ -31,7 +31,7 @@ The challenge with this approach is that we incurred significant data storage co
     
 7. Use Amazon EventBridge to create a schedule for the decrementDaysRemaining and DeleteInstancesAfterSnapshot to run on that compliments the Lifecycle Manager schedule
    
-   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/eventbridge.png)
+   ![](https://raw.githubusercontent.com/EvanWhittaker97/AWS_Lifecycle_Manager/refs/heads/main/eventbridge.png)
 
 **Challenges:**
 - Ensuring that the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
