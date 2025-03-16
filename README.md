@@ -1,10 +1,10 @@
 # [AWS EC2 Lifecycle Manager](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager)
 
 **Tools Used**:
-1. AWS
+1. AWS (EC2, LAMBDA, EventBridge, IAM, CloudWatch, CloudShell)
 2. Python
 3. JSON
-4. AWS CLI (PowerShell)
+4. AWS CloudShell (PowerShell)
 
 **Project Scope:**
 
