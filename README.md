@@ -3,7 +3,7 @@
 **Tools Used**:
 1. AWS
 2. Python
-3. CLI
+3. JSON
 
 **Project Scope:**
 
@@ -12,8 +12,10 @@ The scope of the AWS Lifecycle Manager project was to save my employer money on 
 The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were precviously using Terraform - but if Terraform and EC2 (front end) didn't agree, all changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
 
 The process from start-to-finish:
-1. Create tags for each instance that Lifecycle Manager could run off of.
-2. Add the tags to each instance
+1. Create tags for each instance that Lifecycle Manager could run off of. For our environment, I used "DaysRemaining" (days until VM has a snapshot taken and is deleted) and "ConversionComplete" (if the data has been migrated, change the value)
+2. Create an [IAM Role](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r) (JSON) that allows Lifecycle Manager and LAMBDA to create, delete and modify instances as well as logging whenever they run
+3. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r) (Python) that applies the tags to 500+ existing instances
+4. Develop LAMBDA scripts (Python) that decrement our DaysRemaining tag every 24 hours and delete instances if days remaining = -1
 
 # [US Super Store Sales Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
 
