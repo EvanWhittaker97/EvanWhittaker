@@ -33,9 +33,14 @@ The challenge with this approach is that we incurred significant data storage co
    
    ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/eventbridge.png)
 
+**Challenges:**
+- Ensuring that the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
+- Did not consider that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge
+- Creating a new methodology for bulk creation of instances (result was a PowerShell script that created instances based on an array of names)
+
 **Results:**
 
-- Cloud costs were reduced by 0ver 50% for my team
+- Cloud costs were reduced by over 50% for the team
 - No longer dependant on another team member to approve pull requests
 - Risk of manually deleting the incorrect instance became nearly non-existent
 - Customer data was now accessible for 2 years (per Lifecycle policy) by simply restoring an instance from the snapshot 
