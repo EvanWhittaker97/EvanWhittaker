@@ -37,6 +37,7 @@ The challenge with this approach is that we incurred significant data storage co
 - Ensuring that the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
 - Did not consider that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge
 - Creating a new methodology for bulk creation of instances (solution was a PowerShell script that created instances based on an array of names)
+- Not deleting anything that contained customer data that we still needed
 
 **Results:**
 
