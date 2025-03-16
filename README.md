@@ -1,4 +1,4 @@
-# [AWS EC2 Lifecycle Manager](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
+# [AWS EC2 Lifecycle Manager](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager)
 
 **Tools Used**:
 1. AWS
