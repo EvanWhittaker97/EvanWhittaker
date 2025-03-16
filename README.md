@@ -4,6 +4,7 @@
 1. AWS
 2. Python
 3. JSON
+4. AWS CLI (PowerShell)
 
 **Project Scope:**
 
