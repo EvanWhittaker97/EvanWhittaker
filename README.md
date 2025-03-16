@@ -11,11 +11,32 @@ The scope of the AWS Lifecycle Manager project was to save my employer money on 
 
 The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were precviously using Terraform - but if Terraform and EC2 (front end) didn't agree, all changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
 
-The process from start-to-finish:
-1. Create tags for each instance that Lifecycle Manager could run off of. For our environment, I used "DaysRemaining" (days until VM has a snapshot taken and is deleted) and "ConversionComplete" (if the data has been migrated, change the value)
-2. Create an [IAM Role](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r) (JSON) that allows Lifecycle Manager and LAMBDA to create, delete and modify instances as well as logging whenever they run
-3. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/credit_card/blob/main/github_code.r) (Python) that applies the tags to 500+ existing instances
-4. Develop LAMBDA scripts (Python) that decrement our DaysRemaining tag every 24 hours and delete instances if days remaining = -1
+**Process:**
+
+1. Create tags for each instance that Lifecycle Manager could run on. For our environment, I used "DaysRemaining" (days until VM has a snapshot taken) and "ConversionComplete" (if the data has been migrated, change the value)
+   
+2. Implement the Lifecycle Manager Snapshot policy
+   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/lifecycle.png)
+   
+3. Create an [IAM Role](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/IAM.txt) (JSON) that allows Lifecycle Manager and LAMBDA to create, delete and modify instances as well as log whenever they run
+   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/log.png)
+   
+5. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/TagAllVMs.txt) (Python) that applies the tags to existing instances based on the associated volumes' creation date
+   
+6. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/decrementDaysRemaining.txt) (Python) that decrement our DaysRemaining tag by 1 every 24 hours, but only where ConversionComplete = y
+   
+7. Develop a [LAMBDA script](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/deleteInstancesAfterSnapshot.txt) (Python) that deletes instances when DaysRemaining tag = -1
+    
+8. Use Amazon EventBridge to create a schedule for the decrementDaysRemaining and DeleteInstancesAfterSnapshot to run on that compliments the Lifecycle Manager schedule
+   ![](https://github.com/EvanWhittaker97/AWS_Lifecycle_Manager/blob/main/eventbridge.png)
+
+**Results:**
+
+- Cloud costs were reduced by 0ver 50% for my team
+- No longer dependant on another team member to approve pull requests
+- Risk of manually deleting the incorrect instance became nearly non-existent
+- Customer data was now accessible for 2 years (per Lifecycle policy) by simply restoring an instance from the snapshot 
+
 
 # [US Super Store Sales Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
 
