@@ -1,3 +1,20 @@
+# [AWS EC2 Lifecycle Manager](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
+
+**Tools Used**:
+1. AWS
+2. Python
+3. CLI
+
+**Project Scope:**
+
+The scope of the AWS Lifecycle Manager project was to save my employer money on EC2 instances. In our use case, the VM's were being used to migrate data from legacy software to our software. Each VM was being used for one client only.
+
+The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were precviously using Terraform - but if Terraform and EC2 (front end) didn't agree, all changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
+
+The process from start-to-finish:
+1. Create tags for each instance that Lifecycle Manager could run off of.
+2. Add the tags to each instance
+
 # [US Super Store Sales Dashboard](https://github.com/EvanWhittaker97/SuperStore_Dashboard)
 
 **Tools Used**:
