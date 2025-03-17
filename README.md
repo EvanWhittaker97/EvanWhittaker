@@ -8,9 +8,9 @@
 
 **Project Scope:**
 
-The scope of the AWS Lifecycle Manager project was to save my employer money on EC2 instances. In our use case, the VM's were being used to migrate data from legacy software to our software. Each VM was being used for one client only.
+The scope of the AWS Lifecycle Manager project was to automate our EC2 instance deletion process & cut cloud computing costs. In our use case, the VM's were being used to migrate data from legacy software to our software. Each VM was being used for one client only.
 
-The challenge with this approach is that we incurred significant data storage costs. Furthermore, we were previously using Terraform - but if Terraform and EC2 (front end) didn't agree, all of the changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly efficient. 
+The challenge with our previous approach is that we incurred significant data storage costs. Furthermore, we were using Terraform for our Infrastructure as Code - but if Terraform and EC2 (front end) didn't agree, all of the changes made in the front end would be overwritten the next time a commit was made. Not to mention we could not approve our own pull requests, so it wasn't incredibly time efficient. 
 
 **Process:**
 
@@ -36,8 +36,8 @@ The challenge with this approach is that we incurred significant data storage co
 
 **Challenges:**
 - Ensuring that the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
-- Did not consider that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge
-- Creating a new methodology for bulk creation of instances (solution was a PowerShell script that created instances based on an array of names)
+- Factoring the fact that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge. After the initial deletion of instances was done, the RAM could be throttled back to handle a regular workload. 
+- Creating a new methodology for bulk creation of instances not reliant on Infrastructure as Code (solution was a PowerShell script that created instances based on an array of names)
 - Not deleting anything that contained customer data that we still needed
 
 **Results:**
