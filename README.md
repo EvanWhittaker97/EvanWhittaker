@@ -35,8 +35,8 @@ The challenge with our previous approach is that we incurred significant data st
    ![](https://raw.githubusercontent.com/EvanWhittaker97/AWS_Lifecycle_Manager/refs/heads/main/eventbridge.png)
 
 **Challenges:**
-- Ensuring that the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
-- Factoring the fact that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge. After the initial deletion of instances was done, the RAM could be throttled back to handle a regular workload. 
+- Ensuringing the order of operations was correct (decrementDays runs first, Lifecycle Manager runs second and deleteInstances runs third)
+- Being mindful that these scripts would be running on every existing instance when allocating RAM for the initial snapshot purge. After the initial deletion of instances was done, the RAM could be throttled back to handle a regular workload. 
 - Creating a new methodology for bulk creation of instances not reliant on Infrastructure as Code (solution was a PowerShell script that created instances based on an array of names)
 - Not deleting anything that contained customer data that we still needed
 
